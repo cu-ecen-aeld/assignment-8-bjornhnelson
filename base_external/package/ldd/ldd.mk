@@ -1,9 +1,9 @@
 # LDD
 
-AESD_ASSIGNMENTS_VERSION = 05014e83df3205b72b1626f928bd53636c38c53c
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignment-7-bjornhnelson.git
-AESD_ASSIGNMENTS_SITE_METHOD = git
-AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
+LDD_VERSION = 05014e83df3205b72b1626f928bd53636c38c53c
+LDD_SITE = git@github.com:cu-ecen-aeld/assignment-7-bjornhnelson.git
+LDD_SITE_METHOD = git
+LDD_GIT_SUBMODULES = YES
 
 LDD_MODULE_SUBDIRS = misc-modules
 LDD_MODULE_SUBDIRS += scull
