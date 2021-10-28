@@ -2,16 +2,18 @@
 
 case "$1" in
     start)
-        echo "A7 loading modules"
+        echo "A8 loading modules"
         scull_load
         module_load faulty
         modprobe hello
+        /usr/bin/aesdchar_load
         ;;
     stop)
-        echo "A7 unloading modules"
+        echo "A8 unloading modules"
         scull_unload
         module_unload faulty
         rmmod hello
+        /usr/bin/aesdchar_unload
         ;;
     *)
         echo "Usage: $0 {start|stop}"
