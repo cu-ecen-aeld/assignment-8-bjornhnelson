@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESD_CHAR_DRIVER_VERSION = 2bb6e267d748d71b1ecc1295cadc6c45cbb1616b
+AESD_CHAR_DRIVER_VERSION = 31eedd30239e08154a55342e07d06fe719b643b0
 AESD_CHAR_DRIVER_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-bjornhnelson.git
 AESD_CHAR_DRIVER_SITE_METHOD = git
 AESD_CHAR_DRIVER_GIT_SUBMODULES = YES
